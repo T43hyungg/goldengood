@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f1d599;
+}
+
+header {
+    background-color: #eee1c5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 4px solid #8f6b28;
+    position: relative; 
+    z-index: 10; 
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px; 
+    display: inline-block;
+    position: relative; 
+    z-index: 10; 
+}
+
+nav ul li a.active {
+    color: #ffffff;
+    background-color: #8f6b28;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner {
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.content .image {
+    background-color: #312f8a;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #000;
+}
+
+footer {
+    background-color: #f71b1b;
+    color: #000000;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 4px solid #000;
+}
+
+.grid-container {
+    display: grid;
+    row-gap: 50px;
+}
+
+.div text {
+    grid-template-columns: 3px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.texto {
+    position: relative;
+    width: 75%;
+    height: auto;
+    float: right;
+}
+
+#meio {
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilos para o formulário */
+.form-container {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.form-container h2 {
+    color: #000; 
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #000; 
+}
+
+.form-group input, .form-group textarea {
+    border: 1px solid #ddd; 
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+    background-color: #a8812c; 
+    color: #fff; 
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #333; 
+}
+
+footer {
+    background-color: #d2ad5d;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    border-top: 4px solid #000;
+}
+
+.footer-info {
+
+    font-size: 13px;
+    background-color: #7e6122;
+    width:auto;
+    height: 20%;
+}
+
+.footer-info p {
+    margin: 0; 
+}
